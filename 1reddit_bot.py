@@ -12,8 +12,7 @@ def get_recepient_email():
         client_id = os.getenv('client_id'),
         client_secret = os.getenv('client_secret'),
         user_agent = os.getenv('user_agent'),
-        #username = 'Atiz_089',
-        #password = 'mercy2000k'
+       
     )
     #print(reddit.read_only)
 
