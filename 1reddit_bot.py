@@ -46,7 +46,8 @@ def get_recepient_email():
             with smtplib.SMTP_SSL('smtp.gmail.com', 465) as server:
                 server.login(sender_email, password)
                 server.send_message(message)
-                return ('Notification email sent')
+                print ('Notification email sent')
+                #return ('Notification email sent')
 
 print(get_recepient_email())                         
                             
